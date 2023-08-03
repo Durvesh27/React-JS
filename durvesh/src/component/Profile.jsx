@@ -15,7 +15,7 @@ if(!current)  {
 }
 const users=JSON.parse(localStorage.getItem("Users"))
 if(current && users){
-    users.forEach((pro)=>{
+    users.forEach( (pro)=>{
        if( pro.email===current.email && pro.password===current.password){
         setUserData(pro)
        }

@@ -24,10 +24,10 @@ function Navbar() {
 
 
     let data = JSON.parse(localStorage.getItem("Users"))
-    let durvesh = data.find((val) => {
-        // return email===val.email;   
-        return user?.email === val.email;
-    })
+    // let durvesh = data.find((val) => {
+    //     // return email===val.email;   
+    //     return user?.email === val.email;
+    // })
 
     function addCart() {
         if (user?.email) {
@@ -64,7 +64,7 @@ function Navbar() {
                 {
                     user?.email ?
                         <h4 style={{ marginRight: "70px" }}>Hello!  <span style={{ fontWeight: 700 }}>
-                            {durvesh?.name}
+                            {/* {durvesh?.name} */}
                         </span></h4> :
                         null
                 }

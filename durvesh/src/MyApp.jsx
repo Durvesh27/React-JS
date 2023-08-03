@@ -37,6 +37,8 @@ import Parent from './component/Parent';
 import Form from './component/Form';
 import Kart from './component/Kart';
 import Profile from './component/Profile';
+import Reference from './component/Reference';
+import Reference1 from './component/Reference1';
 
 
 
@@ -84,6 +86,8 @@ function MyApp() {
         <Route exact path='/form' element={<Form/>}/>
         <Route exact path='/kart' element={<Kart/>}/>
         <Route exact path='/profile' element={<Profile/>}/>
+        <Route exact path='/reference' element={<Reference/>}/>
+        <Route exact path='/reference1' element={<Reference1/>}/>
         
 
 

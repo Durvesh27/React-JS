@@ -45,18 +45,3 @@ export default ProductsBackend;
 
 
 
-// HomePage 
-// Multiple product page
-// Single product page
-// Cart 
-// Profile
-// Login 
-// Logout
-
-// Login/register - getRoles, admin, seller, buyer
-// webiste cut - admin, seller, buyer 
-// seller - add product ,update product, all product , profile, 
-// buyer - all product, cart, profile,
-// admin, update product, update seller, update user, 
-
-// Scehma - Users, Products 
